@@ -1,5 +1,4 @@
-import { valida } from "./validacion.js";
-import { validaTextarea } from "./validacion.js";
+import {valida, validaTextarea} from "./validacion.js";
 
 const inputs = document.querySelectorAll("input");
 const textarea = document.querySelector("textarea");
