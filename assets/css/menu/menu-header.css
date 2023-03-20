@@ -1,0 +1,15 @@
+.menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    color: #F4F4F4;
+}
+
+@media (min-width: 1000px) {
+    .menu__header {
+        margin-left: 30px;
+    }
+}

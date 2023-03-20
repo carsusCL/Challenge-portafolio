@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .skills{
+        padding: 30px;
+    }
+}
+   
+@media (min-width: 1000px) {
+    .skills{
+        padding: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+.menu__list__item {
+    font-size: 14px;
+    font-weight:bold;
+    margin: 5px;
+    color: var(--color-de-fondo);
+}
+
+.menu__list__item:hover{
+    border-bottom: 3px solid var(--color-de-botones);
+}
+

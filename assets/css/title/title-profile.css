@@ -1,0 +1,8 @@
+.title__profile {
+    width: 20%;
+}
+@media (min-width: 1000px) {
+    .title__profile {
+        width: 368px;
+    }
+}

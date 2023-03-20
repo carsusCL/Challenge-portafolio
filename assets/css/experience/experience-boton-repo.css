@@ -1,0 +1,21 @@
+.experiencia__botao--repo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid var(--color-de-botones);
+    color: var(--color-de-botones);
+    box-sizing: border-box;
+}
+.experiencia__botao--repo:hover{
+    background-color: rgb(212, 212, 212);
+    border-width: 3px;
+    transition: 1s;
+}
+
+.experiencia__botao--repo:active{
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    transition: 1s;
+}

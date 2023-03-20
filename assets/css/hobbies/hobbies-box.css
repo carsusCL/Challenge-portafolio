@@ -1,0 +1,40 @@
+.hobbies__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: var(--color-de-items);
+    margin: 15px 0 22px 0;
+    width: 156px;
+    height: 118px;
+    border-radius: 30px;
+}
+
+.hobbies__box:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: rgb(151, 151, 151);
+}
+
+@media (min-width: 768px) {
+    .hobbies__box {
+        margin: 22px 15px 10px 0px;
+        width: 180px;
+        height: 108px;
+    }
+}
+@media (min-width: 1000px) {
+    .hobbies__box {
+        margin: 22px 15px 22px 0px;
+        width: 108px;
+        height: 108px;
+    }
+}
+@media (min-width: 1440px) {
+    .hobbies__box {
+        margin: 22px 15px 22px 0px;
+        width: 156px;
+        height: 118px;
+    }
+}

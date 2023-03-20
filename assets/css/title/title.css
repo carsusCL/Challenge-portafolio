@@ -1,0 +1,34 @@
+.title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    text-align:center;
+    color: var(--color-de-fondo);
+}
+
+.title__div{
+    position: absolute;
+    transform: translate(0%, -150%);
+    align-items: center;
+}
+@media (min-width: 768px) {
+    .title {
+        margin-bottom: 32px;
+    }
+    .title__div {
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction:row-reverse;
+        transform: translate(0%, -250%);
+    }
+}
+@media (min-width: 1000px) {
+      .title__div {
+        padding-left: 200px;
+        padding-right: 200px;
+
+        transform: translate(0%, -130%);
+    }
+}
+

@@ -1,0 +1,6 @@
+.title__banner{
+    background: url(/assets/images/banner.png) no-repeat center / cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(30%);
+}

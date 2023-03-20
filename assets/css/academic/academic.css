@@ -1,0 +1,9 @@
+.academic {
+    background-color: var(--color-de-items);
+    padding: 20px;
+}
+@media (min-width: 1000px) {
+    .academic {
+        margin-top: 82px;
+    }
+}

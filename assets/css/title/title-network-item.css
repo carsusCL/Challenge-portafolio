@@ -1,0 +1,3 @@
+.title__network__item:hover{
+    border-bottom: 3px solid var(--color-de-botones);
+}

@@ -1,0 +1,6 @@
+.academic__courses__list {
+    margin: 15px;
+    padding: 0;
+    background-color: var(--color-de-botones);
+    border-radius: 30px;
+}

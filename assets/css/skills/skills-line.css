@@ -1,0 +1,23 @@
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-between;
+}
+
+@media (min-width: 768px) {
+    .skills__line {
+        width: 100%;
+       
+    }
+}
+@media (min-width: 1000px) {
+    .skills__line {
+        width: 100%;
+    }
+}
+@media (min-width: 1440px) {
+    .skills__line {
+        justify-content: center;
+    }
+}

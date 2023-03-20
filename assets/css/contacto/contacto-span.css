@@ -1,0 +1,8 @@
+.formcontato__span{
+    display: none;
+}
+
+.input-container .formcontato__span{
+    display: block;
+    color: red;
+}

@@ -1,0 +1,5 @@
+@media (min-width: 1000px) {
+    .menu__list__item__contato {
+        display: none;
+    }
+}

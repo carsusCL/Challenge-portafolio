@@ -1,0 +1,10 @@
+.footer {
+    height: 10vh;
+    background-color: white;
+}
+
+@media (min-width: 1000px) {
+    .footer {
+        height: 5vh;
+    }
+}

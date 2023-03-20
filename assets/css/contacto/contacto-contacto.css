@@ -1,0 +1,6 @@
+@media (min-width: 1000px) {
+    .formcontato__contacto {
+        display: flex;
+        justify-content: center;
+    }
+}

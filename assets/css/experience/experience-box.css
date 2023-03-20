@@ -1,0 +1,28 @@
+.experience__box {
+    margin: 0 32px 64px 32px;
+}
+
+@media (min-width: 768px) {
+    .experience__box {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1000px) {
+    .experience__box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .experience__box:nth-child(2) {
+        margin-top: 50px;
+    }
+    .experience__box:nth-child(3) {
+        flex-direction: row-reverse;
+        
+    }
+    .experience__box:nth-child(5) {
+        flex-direction: row-reverse;
+    }
+}

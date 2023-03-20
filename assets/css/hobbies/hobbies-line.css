@@ -1,0 +1,21 @@
+.hobbies__line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+@media (min-width: 768px) {
+    .hobbies__line {
+        width: 100%;
+    }
+}
+@media (min-width: 1000px) {
+    .hobbies__line {
+        width: 100%;
+    }
+}
+@media (min-width: 1440px) {
+    .hobbies__line {
+        justify-content: center;
+    }
+}

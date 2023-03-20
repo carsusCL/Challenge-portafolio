@@ -1,0 +1,6 @@
+.formcontato__form {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0;
+}

@@ -1,0 +1,12 @@
+.title__subsection {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+@media (min-width: 1000px) {
+    .title__subsection {
+        font-size: 25px;
+        line-height: 27px;
+    }
+}

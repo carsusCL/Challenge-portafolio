@@ -1,0 +1,8 @@
+.academic__courses__list li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.academic__courses__list li:nth-child(1){
+    height: 250px;
+}

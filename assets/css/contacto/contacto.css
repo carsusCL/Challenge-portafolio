@@ -1,0 +1,10 @@
+.formcontato {
+    background-color: var(--color-de-items);
+    padding: 16px;
+    display: flex;
+}
+@media (min-width: 1440px) {
+    .formcontato {
+        padding: 64px 172px;
+    }
+}

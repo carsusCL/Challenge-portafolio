@@ -1,0 +1,19 @@
+.formcontato__input {
+    border: transparent;
+    flex-grow: 1;
+    margin: 10px 0px;
+    height: 56px;
+    width: 80vw;
+    color: var(--color-de-items);
+    font-family: 'Raleway';
+}
+
+.formcontato__input:focus {
+    border-bottom: solid 3px var(--color-de-botones);
+}
+
+@media (min-width: 1000px) {
+    .formcontato__input {
+        width: 100%;
+    }
+}

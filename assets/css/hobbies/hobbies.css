@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    .hobbies{
+        padding: 30px;
+    }
+}
+   
+@media (min-width: 1000px) {
+    .hobbies{
+        padding: 30px;
+    }
+}
